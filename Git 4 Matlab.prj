@@ -1,0 +1,86 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\Users\zyxbac\git\Git-4-Matlab_sandbox\Git 4 Matlab.prj" location="C:\Users\zyxbac\git\Git-4-Matlab_sandbox" name="Git 4 Matlab" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Git 4 Matlab</param.appname>
+    <param.authnamewatermark>Michael Breuer</param.authnamewatermark>
+    <param.email>michael.breuer@ilsf.de</param.email>
+    <param.company />
+    <param.summary>Use git from Matlab Command Window or in scripts and functions.</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\image\mltoolbox.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\Git 4 Matlab.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>b4649fd5-3ede-4746-ad5e-a232a9c35452</param.guid>
+    <param.exclude.filters />
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.authnamewatermark />
+      <param.description />
+      <param.version />
+      <param.output />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}\tbx</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\tbx\doc</file>
+      <file>${PROJECT_ROOT}\tbx\Git 4 Matlab</file>
+      <file>${PROJECT_ROOT}\tbx\info.xml</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\zyxbac\git\Git-4-Matlab_sandbox" name="Git 4 Matlab.mltbx" optional="false">C:\Users\zyxbac\git\Git-4-Matlab_sandbox\Git 4 Matlab.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\app\Matlab\MatlabR2016bx64</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
