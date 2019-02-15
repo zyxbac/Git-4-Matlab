@@ -15,24 +15,22 @@ function varargout = git(varargin)
 nargoutchk(0,2)
 
 %% configure
-% Specify the location of the git executable.
-%GIT_BINARY = 'C:\path\to\GIT-2.7.0\bin\git.exe';
 GIT_BINARY = 'git';
 
 %% Construct the git command.
-cmdstr = strjoin([GIT_BINARY, varargin]);
+git_command = strjoin([GIT_BINARY, varargin]);
 
 % Execute the git command.
-[status, cmdout] = system(cmdstr);
+[status, git_output] = system(git_command);
 
 switch nargout
     case 0
-        disp(cmdout)
+        disp(git_output)
     case 1
         varargout{1} = status;
     case 2
         varargout{1} = status;
-        varargout{2} = cmdout;
+        varargout{2} = git_output;
 end
 
 % EOF
